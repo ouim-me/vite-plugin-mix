@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-mix",
-  "version": "0.4.0",
+  "name": "@ouim/vite-plugin-mix",
+  "version": "0.0.0",
   "description": "Adding backend API to your Vite app",
   "publishConfig": {
     "access": "public"
@@ -14,7 +14,8 @@
     "build": "rollup -c",
     "dev": "rollup -cw",
     "test": "jest",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish --access public"
   },
   "license": "MIT",
   "devDependencies": {
